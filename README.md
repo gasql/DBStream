@@ -1,6 +1,6 @@
 # DBStream
 
-Streaming MSSQL database between instances. 
+Streaming MSSQL database between instances. No need of disk space for backup files. 
 
 ## Similarity
 
@@ -38,6 +38,22 @@ Be aware when you download DBStream binaries from other sources.
 
 ## Installation
 No need to install. Just copy, paste & run
+
+## Start Case
+
+- Download DBStream to Server1(Source) and Server2(Target), then unzip to your preferred location. 
+
+- Make sure (1) C++ runtime and ODBC are installed (2) SQL Server is installed (3) Current Windows/Domain Account has MSSQL sysadmin privileges. in both Server1 and Server2.
+
+- Open Windows Console as administrator, and run the following command in Server2. 
+
+  [AppPath]> DBStream.exe -l=3306
+
+- Open Windows Console as administrator, and run the following command in Server1. Then TestDB will stream from Server1 to Server2.
+
+  [AppPath]>DBStream.exe -d=TestDB -f="tcp://Server2:3306"
+
+*3306 means, Server1 transfers data to Server2 by TCP-3306. So, make sure it's not blocked by firewall. Otherwise, change it to other available port.
 
 ## Syntax & Usage
 https://gasql.com/dbstream/syntax.html
