@@ -10,7 +10,7 @@ The only similarity for now is Auto-seeding. But Auto-seeding is not independent
 
 | version | Windows                                                      | Linux                                                        |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1.0    | [DBStream_1.0_Win.zip](https://gasql.com/media/DBStream_1.0_Win.zip) | [DBStream_1.0_Linux.zip](https://gasql.com/media/DBStream_1.0_Linux.zip) |
+| 1.0    | [DBStream_1.0_Win.zip](Coming Soon) | [DBStream_1.0_Linux.zip](Coming Soon) |
 
 ## Disclaimer
 
