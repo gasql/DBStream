@@ -26,7 +26,7 @@ Be aware when you download NBMiner binaries from other sources.
 
 ## Prerequisites
 
-* Microsoft Visual C++ Redistributable for Visual Studio 2017 (x64)
+* Microsoft Visual C++ Redistributable for Visual Studio 2022 (x64)
 * ODBC Driver v17 for SQL Server (x64)
 
 ## Permissions
