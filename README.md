@@ -31,7 +31,7 @@ Be aware when you download NBMiner binaries from other sources.
 
 ## Permissions
 ### Windows
-* Member of administrators local group runs DBStream as Administrator
+* Runs DBStream as Administrator
 * sysadmin permissions on MS SQL Server
 ### Linux 
 * user of mssql
