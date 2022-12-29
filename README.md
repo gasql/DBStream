@@ -16,7 +16,7 @@ The only similarity for now is Auto-seeding. But Auto-seeding is not independent
 
 [gasql](https://gasql.com) & [gasql/DBStreamb](https://github.com/gasql/DBStream) are the only 2 officially maintained site for publishing information and new releases of DBStream.
 
-Be aware when you download NBMiner binaries from other sources.
+Be aware when you download DBStream binaries from other sources.
 
 ## Features
 
