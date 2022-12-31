@@ -4,7 +4,7 @@ Streaming MSSQL database between instances. DBStream is based on DB Backup and R
 
 ## Similarity
 
-The only similarity for now is Auto-seeding. But Auto-seeding is not independent. It's hard to use auto-seeding out of AG creation case, while DBStream is easy and flexible.
+The only similarity for now is Auto-seeding. DBStream is independent with tons of flexibility, while Auto-seeding is tightly coupled with Availability Group which introduces extra limiations such as MSSQL version, edition, WSFC, etc. 
 
 ## Download
 
