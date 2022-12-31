@@ -21,7 +21,7 @@ Be aware when you download DBStream binaries from other sources.
 ## Features
 
 * Support Windows & Linux(CentOS/REHL v7/8, etc.).
-* Support SQL Server 2008 ~ SQL Server 2022.
+* Support SQL Server 2008 or above.
 * Support instances in on-prem or cloud VM.
 
 ## Prerequisites
@@ -31,7 +31,7 @@ Be aware when you download DBStream binaries from other sources.
 
 ## Permissions
 ### Windows
-* Runs DBStream as Administrator
+* Run DBStream as Administrator
 * sysadmin permissions on MS SQL Server
 ### Linux 
 * user of mssql
