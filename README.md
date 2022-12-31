@@ -67,3 +67,6 @@ https://gasql.com/dbstream/
 
 ## Change Log
 
+#### v10.0.0 (2022-12-31)
+
+- Initial Release
