@@ -45,6 +45,8 @@ No need to install. Just copy, paste & run
 
 - Make sure (1) C++ runtime and ODBC are installed (2) SQL Server is installed (3) Current Windows/Domain Account has MSSQL sysadmin privileges. in both Server1 and Server2.
 
+- Make sure Server1's IP is in Valide IP list (ValidIPs) of config.ini in Server2. Otherwise, Server2 will deny data packets from Server1.
+
 - Open Windows Console as administrator, and run the following command in Server2. 
 
   [AppPath]> DBStream.exe -l=3306
