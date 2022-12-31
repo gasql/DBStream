@@ -1,6 +1,6 @@
 # DBStream
 
-Streaming MSSQL database between instances. No need of disk space for backup files. 
+Streaming MSSQL database between instances. DBStream is based on DB Backup and Restore. It streams backup blocks in memory from source to target server where Restore runs in parallel. No need of disk space for backup files. 
 
 ## Similarity
 
