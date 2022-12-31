@@ -49,7 +49,7 @@ No need to install. Just copy, paste & run
 
   [AppPath]> DBStream.exe -l=3306
 
-- Open Windows Console as administrator, and run the following command in Server1. Then TestDB will stream from Server1 to Server2.
+- Open Windows Console as administrator, and run the following command in Server1. Then DBStream will stream TestDB database from Server1 to Server2.
 
   [AppPath]>DBStream.exe -d=TestDB -f="tcp://Server2:3306"
 
